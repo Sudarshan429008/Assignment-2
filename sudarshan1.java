@@ -31,21 +31,7 @@ static int processExpression(String exp)
 	{
 		if(currOp == '+')
 	
-	{
-	num1 = "" + (Integer.parseInt(num1)+ Integer.parseInt(num2));
-}
-		else if(currOp == '-')
-		{
-			num1 = "" + (Integer.parseInt(num1)- Integer.parseInt(num2));
-		}
-		else if (currOp == '*')
-		{
-			num1 = "" + (Integer.parseInt(num1)* Integer.parseInt(num2));
-		}
-		else if(currOp == '/')
-		{
-			num1 = "" + (Integer.parseInt(num1)/ Integer.parseInt(num2));
-		}
+
 		 num2 = "";
 		 
 	}
@@ -54,7 +40,7 @@ static int processExpression(String exp)
 	}
 	if (currOp == '?')
 		{
-		return Integer.parseInt(num1);
+
 		
 		}}}
 	
