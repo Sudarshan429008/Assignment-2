@@ -7,7 +7,7 @@ public static void main (String[] args)
 }
 static int processExpression(String exp)
 {
-	String ops = "+-/*";
+	String op = "+-/*";
 	String digits = "0123456789";
 	String num1 = "";
 	String num2 = "";
@@ -19,7 +19,7 @@ static int processExpression(String exp)
 			num2 = num2 + exp.charAt(i);
 			
 		}
-		else if(ops.indexOf(exp.charAt(i))!= -1)
+		else if(op.indexOf(exp.charAt(i))!= -1)
 		{
 			if(num1.length()== 0)
 	{
@@ -29,20 +29,6 @@ static int processExpression(String exp)
 	}
 	else
 	{
-		if(currOp == '+')
-	
-
-		 num2 = "";
-		 
-	}
-			currOp = exp.charAt(i);
-		}
-	}
-	if (currOp == '?')
-		{
-
-		
-		}}}
 	
 
 	
