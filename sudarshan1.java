@@ -3,7 +3,7 @@ public class sudarshan1
 {
 public static void main (String[] args)
 {
-	System.out.println(sudarshan1.processExpression("123")+1);
+	System.out.println(sudarshan1.processExpression("123"));
 }
 static int processExpression(String exp)
 {
